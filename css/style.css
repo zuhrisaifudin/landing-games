@@ -158,3 +158,16 @@ font-style: normal;
     padding-top: 14px;
     font-size: 20px;
 }
+
+
+/*--------------------------------------------------------------
+# Games Section
+--------------------------------------------------------------*/
+
+#games{
+  height: 100vh;
+  background-image: url("../assets/img/the-games-bg.jpg"), linear-gradient(#eb01a5, #d13531);
+}
+.games-pt{
+  padding-top: 15%;
+}
