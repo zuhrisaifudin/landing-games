@@ -1,0 +1,160 @@
+/**
+* Tugas Untuk Binar Academy
+* Author Zuhri Saifudin
+* Wave 10
+* Fasil Arie May
+*/
+
+
+/*Global Setting*/
+
+body {
+  font-family: "Apercu", sans-serif;
+  color: #444444;
+}
+
+a {
+  color: #34b7a7;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #51cdbe;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Apercu", sans-serif;
+}
+
+@font-face {
+font-family: 'Apercu';
+src: url('../assets/fonts/ApercuPro-Medium.woff') format('woff');
+font-weight: 500;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Apercu';
+src: url('../assets/fonts/ApercuPro-Regular.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Apercu';
+src: url('../assets/fonts/ApercuPro-Bold.woff') format('woff');
+font-weight: bold;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Apercu';
+src: url('../assets/fonts/ApercuPro-Light.woff') format('woff');
+font-weight: 300;
+font-style: normal;
+}
+  
+
+/*--------------------------------------------------------------
+# Navigation 
+--------------------------------------------------------------*/
+
+#header {
+  box-shadow: 0px 0px 25px 0 rgba(0, 0, 0, 0.08);
+  z-index: 997;
+  padding: 15px 0;
+}
+
+#header .logo {
+  font-size: 32px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #fff;
+}
+#header .logo > a{
+  color: #fff;
+}
+
+.navbar {
+  padding: 0;
+}
+.navbar ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.navbar li {
+  position: relative;
+  padding: 10px 0 10px 28px;
+}
+
+.navbar a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Apercu", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+  white-space: nowrap;
+  transition: 0.3s;
+  position: relative;
+  text-transform: uppercase;
+}
+
+
+/*--------------------------------------------------------------
+# Sign Up From
+--------------------------------------------------------------*/
+.signup-form{
+  padding-right: 15px;
+}
+
+.signup-form a {
+  color: #6f6f6f;
+  padding-left: 6px;
+  display: inline-block;
+  line-height: 0px;
+  transition: 0.3s;
+  font-size: 16px;
+}
+
+.signup-form a:hover {
+  color: #34b7a7;
+}
+
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+
+#hero{
+	background-image: url("../assets/img/main-bg.jpg"), linear-gradient(#eb01a5, #d13531);
+	background-size: cover;
+	height: 100vh;
+}
+.hero-header{
+	color: #fff;
+	line-height: 2em;
+}
+.hero-desc{
+	color: #fff;
+	line-height: 2em;
+}
+.btn-play{
+	height: 55px;
+	width: 250px;
+	color: #000;
+    background-color: #ffc107;
+    border-color: #ffc107;
+    text-align: center;
+    padding-top: 14px;
+    font-size: 20px;
+}
