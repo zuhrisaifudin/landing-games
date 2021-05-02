@@ -141,9 +141,22 @@ font-style: normal;
 --------------------------------------------------------------*/
 
 #hero{
-	background-image: url("../assets/img/main-bg.jpg");
-	background-size: cover;
 	height: 100vh;
+    position: relative;
+    z-index: 1;
+}
+#hero::before{
+  content: '';
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: radial-gradient(189.96% 61.18% at 50% 38.82%, rgba(255, 181, 72, 0) 0%, rgba(52, 44, 29, 0.80319) 73.22%, #08090A 99.74%), url('../assets/img/main-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  width:100% ;
+
 
 }
 .hero-header{
@@ -174,12 +187,26 @@ font-style: normal;
   height: 60px;
   padding: 20px 70px 20px 70px;
 }
+.hero-down{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: justified;
+  text-transform: uppercase;
+}
+.hero-arrow{
+  position: absolute;
+  padding-top: 24rem;
+}
 /*--------------------------------------------------------------
 # Games Section
 --------------------------------------------------------------*/
 #games{
   height: 100vh;
-  background-image: url("../assets/img/the-games-bg.jpg");
+  background-image: url("../assets/img/bg-dua.png");
 }
 .games-pt{
   padding-top: 15%;
@@ -221,7 +248,6 @@ font-style: normal;
   height: 100vh;
   border-radius: 0px;
   background: #080A0B;
-
 }
 .score-card{
   padding-top: 9.9rem;
@@ -351,9 +377,10 @@ font-style: normal;
 --------------------------------------------------------------*/
 
 #footer{
-  height: 959.87px;
+  height: 959px;
   background: #080A0B;
   font-size: 14px;
+  padding-top: 147px;
 }
 .footer-play{
   height: 25.772rem;
@@ -365,4 +392,87 @@ font-style: normal;
   height: 43rem;
   left: 159.96px;
   top: 49.98px;
+}
+.subcribe{
+  padding-left: 60px;
+}
+.subcribe-title{
+  font-family: arial;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 2px;
+  text-align: left;
+  width: 261px;
+  color: #FFFFFF;
+  padding-top: 220px;
+}
+.subcribe-form:valid {
+  /*background-color:  #96d3ec!important;*/
+  background: rgba(255, 255, 255, 0.08) !important;
+  border:none;
+
+}
+.subcribe-form::placeholder{
+  color:#FFB548;
+  padding-top: 20px;
+}
+.subcribe-newsletter{
+  font-family: arial;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 92px;
+  letter-spacing: 3px;
+  text-align: left;
+  color: #FFFFFF;
+}
+.subcribe-desc{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: left;
+
+}
+.subcribe-input{
+  display: flex;
+  padding-top: 100px;
+}
+.subcribe-input > label{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #FFFFFF;
+  opacity: 0.5;
+  position: absolute;
+  padding-left: 10px;
+  padding-top: 6px;
+
+}
+.subcribe-form{
+  width: 366px;
+  margin-right: 17px;
+}
+.subcribe-button{
+
+  width: 260px;
+  height: 60px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: center;
+  background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+  border-radius: 4px;
+
 }
