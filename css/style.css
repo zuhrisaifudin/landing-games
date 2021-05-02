@@ -42,10 +42,10 @@ src: url('../assets/fonts/ApercuPro-Light.woff') format('woff');
 font-weight: 300;
 font-style: normal;
 }
-  
+
 
 /*--------------------------------------------------------------
-# Navigation 
+# Navigation
 --------------------------------------------------------------*/
 
 #header {
@@ -93,7 +93,7 @@ font-style: normal;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-family: "Apercu", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 15px;
   color: #fff;
   white-space: nowrap;
@@ -124,7 +124,7 @@ font-style: normal;
   display: inline-flex;
 }
 .signup-form-ul > li > a{
-  font-family: "Apercu", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #ffffff;
   font-weight: 700;
   font-size: 15px;
@@ -147,10 +147,13 @@ font-style: normal;
 
 }
 .hero-header{
-    font-family: 'Bebas Neue', cursive;
-	color: #fff;
-    font-size: 80px;
-	line-height: 2em;
+  font-family: Arial;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 83px;
+  letter-spacing: 3px;
+  text-align: center;
 }
 .hero-desc{
     font-family: 'Bebas Neue', cursive;
@@ -158,27 +161,22 @@ font-style: normal;
 	line-height: 2em;
 }
 .btn-play{
-	height: 55px;
-	width: 250px;
-	color: #000;
-    background-color: #ffc107;
-    border-color: #ffc107;
-    text-align: center;
-    padding-top: 14px;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 22px;
-    letter-spacing: 0px;
-    text-align: center;
-
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: center;
+  border-radius: 4px;
+  margin: auto;
+  height: 60px;
+  padding: 20px 70px 20px 70px;
 }
-.
-
 /*--------------------------------------------------------------
 # Games Section
 --------------------------------------------------------------*/
-
 #games{
   height: 100vh;
   background-image: url("../assets/img/the-games-bg.jpg");
@@ -214,4 +212,120 @@ font-style: normal;
   height: 100vh;
   background-size:cover ;
   background-image: url("../assets/img/features.jpg");
+}
+
+/*--------------------------------------------------------------
+# Score Section
+--------------------------------------------------------------*/
+#score{
+  height: 100vh;
+  border-radius: 0px;
+  background: #080A0B;
+
+}
+.score-card{
+  padding-top: 9.9rem;
+}
+.member{
+   background: rgba(255, 255, 255, 0.08);
+   border-radius: 10px;
+   width: 453.89px;
+   height: 205px;
+   margin-bottom: 29px;
+   padding: 13px;
+ }
+.member-info > h4{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 2px;
+  text-align: left;
+  color: #FFB548;
+  padding-left: 22px;
+}
+.member-info > span{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: justified;
+  opacity: 0.5;
+  color: #FFFFFF;
+  padding-left: 22px;
+
+}
+
+.member-date{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #FFFFFF;
+  opacity: 0.5;
+  position: absolute;
+  padding: 141px 0px 0px 13px;
+}
+.member-desc{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24.51px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #FFFFFF;
+  position: absolute;
+  padding-top: 103px;
+  padding-left: 13px;
+}
+.member-twitter{
+  position: absolute;
+  padding-left: 24rem;
+  padding-top: 21px;
+}
+.member-info{
+  padding-top: 17px;
+}
+.member-pic{
+  padding-top: 10px;
+}
+.member-fluid-img::after {
+  position: absolute;
+  content: "";
+  width: 80px;
+  height: 80px;
+  background: url("../assets/img/ellipse.png");
+  background-repeat: no-repeat;
+  background-position: 75% 40%;
+
+}
+.member-left{
+  margin-left: 10.5rem;
+}
+/*--------------------------------------------------------------
+# Fotter Section
+--------------------------------------------------------------*/
+
+#footer{
+  height: 959.87px;
+  background: #080A0B;
+  font-size: 14px;
+}
+.footer-play{
+  height: 25.772rem;
+  width: 27rem;
+  position: absolute;
+}
+.footer-image{
+  position: relative;
+  height: 43rem;
+  left: 159.96px;
+  top: 49.98px;
 }
