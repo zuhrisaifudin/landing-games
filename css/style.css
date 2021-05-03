@@ -342,7 +342,36 @@ font-style: normal;
   line-height: 64px;
   letter-spacing: 3px;
   text-align: left;
-
+  padding-top: 136px;
+  padding-bottom: 80px;
+}
+.requirements-main{
+  border: 9px solid;
+  border-image: url('../assets/img/bg-requirement.png') 10 round;
+}
+.requirements-desc{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 2px;
+  color: #FFB548;
+  padding-top: 14px;
+  padding-left: 16px;
+}
+.requirements-area{
+  padding-left: 16px;
+  padding-bottom: 28px;
+}
+.border-l{
+  border-bottom: 1px solid #4d4d4f;
+  padding-bottom: 20px;
+  border-right: 1px solid #4d4d4f;
+}
+.border-y{
+  border-bottom: 1px solid #4d4d4f;
+  padding-bottom: 20px;
 }
 /*--------------------------------------------------------------
 # Score Section
