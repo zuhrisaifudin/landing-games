@@ -267,15 +267,26 @@ font-style: normal;
 .timeline-core{
   position: relative;
   margin: 0 auto;
+  padding-top: 72px;
 }
 .timeline-core::after {
   content: '';
   position: absolute;
   width: 2px;
+  top: 87px !important;
   background-color: white;
   top: 19px;
   bottom: 0;
   margin-left: 5px;
+}
+.blank-timeline{
+  padding-top: 37px;
+}
+.blank-mode{
+  padding-top: 20px;
+}
+.pl-5{
+  padding-left: 41px;
 }
 .timeline-line {
   padding: 10px 40px;
@@ -312,6 +323,25 @@ font-style: normal;
   letter-spacing: 0px;
   text-align: justified;
   padding-top: 5px;
+
+}
+/*--------------------------------------------------------------
+# Requirement Section
+--------------------------------------------------------------*/
+#requirements{
+  height: 100vh;
+  background-size:cover ;
+  background-image: url("../assets/img/bg-requirment.png");
+  text-transform: uppercase;
+}
+.requirements-title{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px;
+  letter-spacing: 3px;
+  text-align: left;
 
 }
 /*--------------------------------------------------------------
@@ -450,7 +480,7 @@ font-style: normal;
 --------------------------------------------------------------*/
 
 #footer{
-  height: 959px;
+  height: 959.87px;
   background: #080A0B;
   font-size: 14px;
   padding-top: 147px;
@@ -463,8 +493,53 @@ font-style: normal;
 .footer-image{
   position: relative;
   height: 43rem;
-  left: 159.96px;
-  top: 49.98px;
+}
+.footer-down{
+  padding-top: 80px;
+  opacity: 0.5;
+  border-bottom: 0.873968px solid #FFFFFF;
+  padding-bottom: 40px;
+}
+.footer-bootom > li > a{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  text-align: left;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding-right: 30px;
+}
+.footer-copyright{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+.copyright-sub{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0px;
+  text-align: left;
+  opacity: 0.5;
+
+}
+.copyright-privacy{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.footer-bootom > ul> li{
+  padding-right: 30px;
 }
 .subcribe{
   padding-left: 60px;
@@ -479,7 +554,7 @@ font-style: normal;
   text-align: left;
   width: 261px;
   color: #FFFFFF;
-  padding-top: 220px;
+  padding-top: 120px;
 }
 .subcribe-form:valid {
   /*background-color:  #96d3ec!important;*/
@@ -547,5 +622,4 @@ font-style: normal;
   text-align: center;
   background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
   border-radius: 4px;
-
 }
