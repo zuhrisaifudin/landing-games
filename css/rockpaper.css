@@ -1,0 +1,112 @@
+
+.header{
+    box-shadow: 0px 0px 25px 0 rgba(0, 0, 0, 0.08);
+  z-index: 997;
+  padding: 15px 0;
+  background: transparent;
+}
+.nav-title{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+    color: #F9B23D;
+}
+.bg-main {
+	height: 100%;
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	background-color: #9c835f;
+}
+.vs-big {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 144px;
+    line-height: 196px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: red;
+}
+
+.nav-bar {
+	position: relative;
+	top: 100px;
+	text-align: center !important;
+}
+
+.gamepic img {
+	width: 128px;
+	height: 128px;
+	cursor: pointer;
+}
+.title-player  {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    color: #000000;
+}
+.title-ai{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    color: #000000;
+}
+.bg-grey {
+	border-radius: 15%;
+}
+.refresh-game{
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+}
+
+ .versus {
+	position: relative;
+	z-index: 1;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.result {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	transform: rotate(-30deg);
+	margin-left: -30px;
+}
+
+.result > h5{
+    vertical-align: middle;
+    background-color: #4C9654;
+    border-radius: 5%;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #ffffff;
+    height: 55px;
+    padding: 10px 40px;
+    position: absolute;
+    margin-top: 8rem;
+    margin-left: 5rem;
+}
+.max-width{
+    max-width: 200px;
+}
